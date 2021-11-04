@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0"
+            prefWidth="1126.0" xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.pranagal.bartek.luxmedinterviewfrontend.controller.MainController">
+    <children>
+        <fx:include fx:id="searchPane" source="searchPane.fxml"></fx:include>
+
+        <fx:include source="mainPain.fxml" fx:id="mainPane"></fx:include>
+<!--        <Pane layoutX="39.0" layoutY="14.0" prefHeight="34.0" prefWidth="385.0">-->
+<!--            <children>-->
+<!--                <Label prefHeight="26.0" prefWidth="142.0" text="Wyszukiwanie"/>-->
+<!--                <TextField layoutX="180.0" layoutY="2.0"/>-->
+<!--            </children>-->
+<!--        </Pane>-->
+<!--        <Pane fx:id="mainPane" layoutX="7.0" layoutY="49.0" prefHeight="294.0" prefWidth="1126.0">-->
+<!--            <children>-->
+<!--                <Label layoutY="14.0" text="Widok ogólny"/>-->
+<!--                <TableView fx:id="mainTable" layoutY="40.0" prefHeight="255.0" prefWidth="599.0">-->
+<!--                </TableView>-->
+<!--                <Pane layoutX="639.0" layoutY="14.0" prefHeight="255.0" prefWidth="473.0">-->
+<!--                    <children>-->
+<!--                        <HBox layoutX="14.0" layoutY="14.0" prefHeight="43.0" prefWidth="230.0">-->
+<!--                            <children>-->
+<!--                                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="64.0" text="Dodaj"-->
+<!--                                        fx:id="mainPaneAddButton"/>-->
+<!--                                <Button mnemonicParsing="false" text="Edytuj" fx:id="mainPaneEditButton"/>-->
+<!--                                <Button mnemonicParsing="false" text="Usuń" fx:id="mainPaneDeleteButton"/>-->
+<!--                            </children>-->
+<!--                        </HBox>-->
+<!--                        <VBox fx:id="mainPaneEditForm" layoutX="8.0" layoutY="90.0" prefHeight="126.0"-->
+<!--                              prefWidth="330.0">-->
+<!--                            <children>-->
+<!--                                <HBox prefHeight="100.0" prefWidth="200.0">-->
+<!--                                    <children>-->
+<!--                                        <Label minWidth="150.0" text="Imie">-->
+<!--                                            <HBox.margin>-->
+<!--                                                <Insets/>-->
+<!--                                            </HBox.margin>-->
+<!--                                        </Label>-->
+<!--                                        <TextField alignment="TOP_LEFT"/>-->
+<!--                                    </children>-->
+<!--                                </HBox>-->
+<!--                                <HBox prefHeight="100.0" prefWidth="200.0">-->
+<!--                                    <children>-->
+<!--                                        <Label minWidth="150.0" text="Nazwisko"/>-->
+<!--                                        <TextField/>-->
+<!--                                    </children>-->
+<!--                                </HBox>-->
+<!--                                <HBox prefHeight="100.0" prefWidth="334.0">-->
+<!--                                    <children>-->
+<!--                                        <Label minWidth="150.0" text="Pesel"/>-->
+<!--                                        <TextField/>-->
+<!--                                    </children>-->
+<!--                                </HBox>-->
+<!--                                <Button fx:id="mainPaneFormConfirmButton" prefHeight="100.0" prefWidth="334.0"-->
+<!--                                        text="Confirm">-->
+<!--                                </Button>-->
+<!--                            </children>-->
+<!--                        </VBox>-->
+<!--                    </children>-->
+<!--                </Pane>-->
+<!--            </children>-->
+<!--        </Pane>-->
+
+        <fx:include source="detailsPane.fxml" fx:id="detailsPane"></fx:include>
+<!--        <Pane fx:id="detailsPane" layoutX="7.0" layoutY="365.0" prefHeight="332.0" prefWidth="1118.0">-->
+<!--            <children>-->
+<!--                <Pane prefHeight="255.0" prefWidth="599.0">-->
+<!--                    <children>-->
+<!--                        <Label prefHeight="18.0" prefWidth="152.0" text="Widok szczegółowy"/>-->
+<!--                        <TableView fx:id="detailsTable" layoutY="28.0" prefHeight="200.0" prefWidth="599.0">-->
+<!--                        </TableView>-->
+<!--                    </children>-->
+<!--                </Pane>-->
+<!--                <Pane layoutX="640.0" layoutY="21.0" prefHeight="294.0" prefWidth="473.0">-->
+<!--                    <children>-->
+<!--                        <HBox layoutX="14.0" layoutY="14.0" prefHeight="43.0" prefWidth="230.0">-->
+<!--                            <children>-->
+<!--                                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="64.0" text="Dodaj"-->
+<!--                                        fx:id="detailsPaneAddButton"/>-->
+<!--                                <Button mnemonicParsing="false" text="Edytuj" fx:id="detailsPaneEditButton"/>-->
+<!--                                <Button mnemonicParsing="false" text="Usuń" fx:id="detailsPaneDeleteButton"/>-->
+<!--                            </children>-->
+<!--                        </HBox>-->
+<!--                        <VBox fx:id="detailsPaneEditForm" layoutX="14.0" layoutY="84.0" prefHeight="126.0"-->
+<!--                              prefWidth="357.0">-->
+<!--                            <children>-->
+<!--                                <HBox prefHeight="88.0" prefWidth="385.0">-->
+<!--                                    <children>-->
+<!--                                        <Label minWidth="150.0" text="Address"/>-->
+<!--                                        <TextField/>-->
+<!--                                    </children>-->
+<!--                                </HBox>-->
+<!--                                <HBox prefHeight="100.0" prefWidth="200.0">-->
+<!--                                    <children>-->
+<!--                                        <Label minWidth="150.0" text="Email"/>-->
+<!--                                        <TextField/>-->
+<!--                                    </children>-->
+<!--                                </HBox>-->
+<!--                                <HBox prefHeight="34.0" prefWidth="200.0">-->
+<!--                                    <children>-->
+<!--                                        <Label minWidth="150.0" prefHeight="18.0" prefWidth="111.0"-->
+<!--                                               text="Phone Number"/>-->
+<!--                                        <TextField/>-->
+<!--                                    </children>-->
+<!--                                </HBox>-->
+<!--                                <Button fx:id="detailsPaneFormConfirmButton" prefHeight="100.0" prefWidth="334.0"-->
+<!--                                        text="Confirm">-->
+<!--                                </Button>-->
+<!--                            </children>-->
+<!--                        </VBox>-->
+<!--                    </children>-->
+<!--                </Pane>-->
+<!--            </children>-->
+<!--        </Pane>-->
+    </children>
+</AnchorPane>

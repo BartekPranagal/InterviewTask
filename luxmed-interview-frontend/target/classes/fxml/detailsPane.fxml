@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" layoutX="7.0" layoutY="365.0" prefHeight="332.0" prefWidth="1118.0"
+      fx:controller="com.pranagal.bartek.luxmedinterviewfrontend.controller.DetailsDataPaneController"
+      xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Pane  prefHeight="255.0" prefWidth="599.0">
+            <children>
+                <Label prefHeight="18.0" prefWidth="152.0" text="Widok szczegółowy"/>
+                <TableView fx:id="table" layoutY="28.0" prefHeight="200.0" prefWidth="599.0">
+                </TableView>
+            </children>
+        </Pane>
+        <Pane layoutX="640.0" layoutY="21.0" prefHeight="294.0" prefWidth="473.0">
+            <children>
+                <HBox layoutX="14.0" layoutY="14.0" prefHeight="43.0" prefWidth="230.0">
+                    <children>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="64.0" text="Dodaj"
+                                fx:id="addButton"/>
+                        <Button mnemonicParsing="false" text="Edytuj" fx:id="editButton"/>
+                        <Button mnemonicParsing="false" text="Usuń" fx:id="deleteButton"/>
+                    </children>
+                </HBox>
+                <VBox fx:id="editForm" layoutX="14.0" layoutY="84.0" prefHeight="126.0"
+                      prefWidth="357.0">
+                    <children>
+                        <HBox prefHeight="88.0" prefWidth="385.0">
+                            <children>
+                                <Label minWidth="150.0" text="Address"/>
+                                <TextField/>
+                            </children>
+                        </HBox>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                            <children>
+                                <Label minWidth="150.0" text="Email"/>
+                                <TextField/>
+                            </children>
+                        </HBox>
+                        <HBox prefHeight="34.0" prefWidth="200.0">
+                            <children>
+                                <Label minWidth="150.0" prefHeight="18.0" prefWidth="111.0"
+                                       text="Phone Number"/>
+                                <TextField/>
+                            </children>
+                        </HBox>
+                        <Button fx:id="formConfirmButton" prefHeight="100.0" prefWidth="334.0"
+                                text="Confirm">
+                        </Button>
+                    </children>
+                </VBox>
+            </children>
+        </Pane>
+    </children>
+</Pane>

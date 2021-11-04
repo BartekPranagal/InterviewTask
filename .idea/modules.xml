@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/luxmed-interview.iml" filepath="$PROJECT_DIR$/luxmed-interview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luxmed-interview-backend/luxmed-interview-backend.iml" filepath="$PROJECT_DIR$/luxmed-interview-backend/luxmed-interview-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luxmed-interview-frontend/luxmed-interview-frontend.iml" filepath="$PROJECT_DIR$/luxmed-interview-frontend/luxmed-interview-frontend.iml" />
+    </modules>
+  </component>
+</project>
